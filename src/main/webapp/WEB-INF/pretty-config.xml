@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretty-config xmlns="http://ocpsoft.com/prettyfaces/2.0.4"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="
+        http://ocpsoft.com/prettyfaces/2.0.4
+        http://ocpsoft.com/xml/ns/prettyfaces/ocpsoft-pretty-faces-2.0.4.xsd">
+
+    <url-mapping id="home">
+        <pattern value="/"></pattern>
+        <view-id>/index.xhtml</view-id>
+    </url-mapping>
+
+    <url-mapping>
+        <pattern value="/people"></pattern>
+        <view-id>/people.xhtml</view-id>
+    </url-mapping>
+
+    <url-mapping id="conversation_ended">
+        <pattern value="/conversation_ended"></pattern>
+        <view-id>/error.xhtml</view-id>
+    </url-mapping>
+
+</pretty-config>
